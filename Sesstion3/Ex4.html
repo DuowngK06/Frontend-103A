@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Thông Tin Chi Tiết</title>
+</head>
+
+<body>
+
+    <form>
+        <p>
+            Họ và tên:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="ho_ten">
+        </p>
+
+        <p>
+            Ngày sinh:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="ngay_sinh">
+        </p>
+
+        <p>
+            Giới tính:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gioi_tinh" value="Nam"> Nam
+            <input type="radio" name="gioi_tinh" value="Nữ"> Nữ
+        </p>
+
+        <p>
+            Số căn cước công dân: &nbsp;&nbsp;&nbsp; <input type="text" name="cccd">
+        </p>
+
+        <p>
+            Ngày cấp:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="ngay_cap">
+        </p>
+
+        <p>
+            Nơi cấp:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="noi_cap">
+        </p>
+
+        <p>
+            Số điện thoại: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="tel"
+                name="sdt">
+        </p>
+
+        <p>
+            Email:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email">
+        </p>
+
+        <p>
+            Địa chỉ thường trú: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea name="dia_chi_tt" rows="2"
+                cols="30"></textarea>
+        </p>
+
+        <p>
+            Địa chỉ tạm trú: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea name="dia_chi_tam"
+                rows="2" cols="30"></textarea>
+        </p>
+
+        <p>
+            Loại căn cước công dân: &nbsp;
+            <input type="radio" name="loai_cccd" value="moi"> Căn cước công dân mới
+            <input type="radio" name="loai_cccd" value="cu"> Căn cước công dân cũ
+        </p>
+
+        <p>
+            Dân tộc:
+
+            <input type="text" name="dan_toc">
+        </p>
+
+        <p>
+            Tôn giáo:
+
+            <input type="text" name="ton_giao">
+        </p>
+
+        <p>
+            Quốc tịch:
+            <input type="text" name="quoc_tich" value="Việt Nam">
+        </p>
+
+        <p>
+            Họ tên cha/mẹ: ; <input type="text" name="ten_phu_huynh">
+        </p>
+
+        <p>
+            Số CMND/CCCD của cha/mẹ: <input type="text" name="cccd_phu_huynh">
+        </p>
+
+        <p>
+            Tỉnh/Thành phố:
+            <select name="tinh_thanh">
+                <option>Chọn Tỉnh/Thành phố</option>
+                <option>Hà Nội</option>
+                <option>TP. Hồ Chí Minh</option>
+                <option>Đà Nẵng</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="submit">Gửi thông tin</button>
+        </p>
+
+    </form>
+
+</body>
+
+</html>

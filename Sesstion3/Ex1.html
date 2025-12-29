@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đặt Lịch</title>
+</head>
+
+<body>
+
+    <h1>Form Đặt Lịch Tư Vấn Học Tập</h1>
+
+    <form>
+        <p>
+            Họ và tên: <input type="text" name="hovaten">
+        </p>
+
+        <p>
+            Chọn ngày giờ: <input type="datetime-local" name="ngaygio">
+        </p>
+
+        <p>
+            Loại dịch vụ:
+            <select name="dichvu">
+                <option value="tuvanhocatp">Tư vấn học tập</option>
+                <option value="huongnghiep">Hướng nghiệp</option>
+            </select>
+        </p>
+
+        <p>
+            Ghi chú: <br>
+            <textarea name="ghichu" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Đặt lịch</button>
+        </p>
+    </form>
+
+</body>
+
+</html>

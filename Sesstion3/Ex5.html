@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký thành viên</title>
+</head>
+
+<body>
+
+    <form>
+        <p>Họ và tên:
+
+            <input type="text" name="ho_ten">
+        </p>
+
+        <p>Ngày sinh:
+
+            <input type="date" name="ngay_sinh">
+        </p>
+
+        <p>Giới tính:
+
+            <input type="radio" name="gioi_tinh" value="Nam"> Nam
+            <input type="radio" name="gioi_tinh" value="Nữ"> Nữ
+        </p>
+
+        <p>Số điện thoại: <input type="tel" name="sdt"></p>
+
+        <p>Email:
+
+            <input type="email" name="email">
+        </p>
+
+        <p>Địa chỉ:
+
+            <textarea name="dia_chi" rows="2" cols="30"></textarea>
+        </p>
+
+        <p>Vai trò trong nhóm: &nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="vai_tro">
+                <option>Thành viên</option>
+                <option>Trưởng nhóm</option>
+            </select>
+        </p>
+
+        <p>Sở thích:
+
+            <input type="text" name="so_thich">
+        </p>
+
+        <p>Kỹ năng:
+
+            <textarea name="ky_nang" rows="2" cols="30"></textarea>
+        </p>
+
+        <p>Thời gian rảnh:
+            <input type="checkbox" name="time" value="Sang"> Sáng
+            <input type="checkbox" name="time" value="Chieu"> Chiều
+            <input type="checkbox" name="time" value="Toi"> Tối
+        </p>
+
+        <p>Lý do tham gia nhóm: <textarea name="ly_do" rows="2" cols="30"></textarea></p>
+
+        <p>Màu yêu thích: <input type="color" name="mau_sac"></p>
+
+        <p>Đăng ký nhận bản tin: <input type="checkbox" name="newsletter"> Có</p>
+
+        <p>Nhận thông báo qua email:
+            <input type="radio" name="thong_bao" value="Email"> Email
+            <input type="radio" name="thong_bao" value="SMS"> SMS
+        </p>
+
+        <p><input type="submit" value="Đăng ký thành viên"></p>
+    </form>
+
+</body>
+
+</html>

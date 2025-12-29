@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký hội viên</title>
+</head>
+
+<body>
+
+    <form>
+        Họ và tên: <input type="text" name="ho_ten">
+        <br><br>
+
+        Ngày sinh: <input type="date" name="ngay_sinh">
+        <br><br>
+
+        Giới tính:
+        <input type="radio" name="gioi_tinh" value="Nam"> Nam
+        <input type="radio" name="gioi_tinh" value="Nữ"> Nữ
+        <br><br>
+
+        Số điện thoại: <input type="tel" name="sdt">
+        <br><br>
+
+        Email: <input type="email" name="email">
+        <br><br>
+
+        Tên công ty: <input type="text" name="ten_cong_ty">
+        <br><br>
+
+        Vai trò trong công ty:
+        <select name="vai_tro">
+            <option>Giám đốc điều hành (CEO)</option>
+            <option>Quản lý</option>
+            <option>Nhân viên</option>
+        </select>
+        <br><br>
+
+        Quy mô công ty:
+        <select name="quy_mo">
+            <option>Doanh nghiệp nhỏ</option>
+            <option>Doanh nghiệp vừa</option>
+            <option>Tập đoàn</option>
+        </select>
+        <br><br>
+
+        Ngành nghề công ty: <input type="text" name="nganh_nghe">
+        <br><br>
+
+        Lý do tham gia câu lạc bộ: <br>
+        <textarea name="ly_do" rows="3" cols="40"></textarea>
+        <br><br>
+
+        Kinh nghiệm lãnh đạo: <br>
+        <textarea name="kinh_nghiem" rows="3" cols="40"></textarea>
+        <br><br>
+
+        Mục tiêu khi tham gia câu lạc bộ: <br>
+        <textarea name="muc_tieu" rows="3" cols="40"></textarea>
+        <br><br>
+
+        Chương trình sự kiện mong muốn tham gia:
+        <input type="checkbox" name="event" value="Networking"> Networking
+        <input type="checkbox" name="event" value="Workshops"> Workshops
+        <input type="checkbox" name="event" value="HoiThao"> Hội thảo
+        <br><br>
+
+        Đăng ký nhận bản tin:
+        <input type="checkbox" name="newsletter"> Có
+        <br><br>
+
+        <input type="submit" value="Đăng ký hội viên">
+    </form>
+
+</body>
+
+</html>
