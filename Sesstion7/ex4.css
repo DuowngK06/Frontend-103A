@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Khung chứa 3 box */
+.services {
+    display: flex;
+    /* Các box nằm trên cùng một hàng */
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Mỗi box dịch vụ */
+.service-box {
+    width: 250px;
+    /* Chiều rộng 250px */
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    text-align: center;
+    background-color: #fff;
+}
+
+.service-box h3 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}

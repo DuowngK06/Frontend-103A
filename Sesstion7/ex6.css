@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    width: 450px;
+    color: #333;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.status-badge {
+    background-color: #fff3e0;
+    color: #ef6c00;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.info-row {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.label {
+    color: #666;
+}
+
+.value {
+    color: #333;
+    margin-left: 5px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.progress-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.progress-bar-container {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    background-color: #00ff00;
+    /* Màu xanh lá nổi bật */
+    height: 100%;
+    border-radius: 10px;
+}
+
+.date-row {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #555;
+}
+
+.date-row .value {
+    color: #666;
+}

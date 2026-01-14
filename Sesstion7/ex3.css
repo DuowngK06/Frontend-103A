@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #f5f5f5;
+}
+
+/* Khung chính */
+.featured-dentist {
+    width: 350px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+/* Tiêu đề */
+.featured-dentist .title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: orange;
+}
+
+/* Ảnh bác sĩ */
+.featured-dentist img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Nội dung */
+.featured-dentist .content {
+    padding: 15px;
+}
+
+.featured-dentist h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.featured-dentist h3 {
+    font-size: 16px;
+    color: #1eff29;
+    margin-bottom: 10px;
+}
+
+.featured-dentist p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}

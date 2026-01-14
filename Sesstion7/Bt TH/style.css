@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: #142033;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.container {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+}
+
+.section {
+    padding: 64px 0;
+}
+
+.section--alt {
+    background: #f6f8fb;
+}
+
+.section__head {
+    margin-bottom: 28px;
+}
+
+.section__head h2 {
+    margin: 0 0 6px;
+    font-size: 28px;
+}
+
+.section__head p {
+    margin: 0;
+    color: #52627a;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    background: #1a73e8;
+    color: #fff;
+    font-weight: 600;
+    transition: transform 0.25s ease, opacity 0.25s ease, background 0.25s ease;
+
+}
+
