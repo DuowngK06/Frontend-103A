@@ -75,3 +75,12 @@ div>div img {
     object-fit: cover;
     border-radius: 4px;
 }
+footer{
+    background-color: #010101;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
