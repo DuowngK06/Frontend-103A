@@ -1,0 +1,129 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 16px;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #1e1e1e;
+    height: 105px;
+    padding: 0 120px;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: yellow;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 54.4px;
+}
+
+.list-links {
+    display: flex;
+    gap: 30px;
+}
+
+.link-item {
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 27.2px;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(./img/bda3e7d064464cd7f2c9fc4b4ee5de38890ed225.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font-size: 52px;
+    line-height: 95.2px;
+    font-weight: 700px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.btn {
+    height: 60.59px;
+    border-radius: 50px;
+    background-color: #d4af37;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 0 40px;
+    border: none;
+    box-shadow: 0px 5px 15px 0px #D4AF3766;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.signature-dish {
+    background-color: white;
+    padding: 120px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+
+.list-image {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.image-item {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    /*flex: 1;*/
+}
+
+.about {}
+
+.footer {}
