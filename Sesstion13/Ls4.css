@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo img {
+    height: 45px;
+    display: block;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #5d5fef;
+}
+
+.nav-menu a.active {
+    color: #5d5fef;
+    background-color: #f0f1ff;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+/* Thông tin người dùng góc phải */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.banner {
+    background-color: #5d5fef;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 16px;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* 4. Responsive cho thiết bị di động */
+@media (max-width: 768px) {
+    .main-header {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-menu a {
+        margin: 0 8px;
+        font-size: 13px;
+    }
+
+    .banner {
+        padding: 50px 20px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+}
+/* Container bao quanh để tạo khoảng cách với lề màn hình */
+.course-tabs-container {
+    padding: 30px 5%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Flexbox để các nút nằm ngang và cách nhau */
+.course-tabs {
+    display: flex;
+    gap: 15px;
+    /* Khoảng cách giữa các nút */
+    flex-wrap: wrap;
+    /* Tự xuống dòng nếu màn hình hẹp */
+}
+
+/* Định dạng chung cho các nút tab */
+.tab-item {
+    padding: 10px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    /* Bo góc nhẹ */
+    background-color: #ffffff;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.tab-item.active {
+    background-color: #5d5fef;
+    color: #ffffff;
+    border-color: #5d5fef;
+}
+
+/* Hiệu ứng khi di chuột vào các nút chưa chọn */
+.tab-item:not(.active):hover {
+    border-color: #5d5fef;
+    color: #5d5fef;
+    background-color: #f0f1ff;
+}
